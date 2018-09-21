@@ -7,6 +7,25 @@
 
 Bi-directional channels for communicating between threads based on [crossbeam-channel](https://docs.rs/crossbeam-channel/0.2.6/crossbeam_channel/).
 
+# example
+
+```rust
+let (left, right) = unbounded::<bool, i32>();
+thread::spawn(move || {
+    loop {
+        let val = right.recv().unwrap();
+        right.send(val % 2 == 0);
+    }
+});
+
+for i in 0..10 {
+    left.send(i);
+    if left.recv().unwrap() {
+        println!("{} is even", i);
+    }
+}
+```
+
 # usage
 
 ```toml
