@@ -1,6 +1,9 @@
 # doublecross
 
 [![Build Status](https://travis-ci.org/oefd/doublecross.svg?branch=master)](https://travis-ci.org/oefd/doublecross)
+[![License](https://img.shields.io/crates/l/doublecross.svg)](https://github.com/oefd/doublecross)
+[![Cargo](https://img.shields.io/crates/v/doublecross.svg)](https://crates.io/crates/doublcross)
+[![Documentation](https://docs.rs/doublecross/badge.svg)](https://docs.rs/doublecross)
 
 Bi-directional channels for communicating between threads based on [crossbeam-channel](https://docs.rs/crossbeam-channel/0.2.6/crossbeam_channel/).
 
