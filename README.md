@@ -8,7 +8,7 @@ Bi-directional channels for communicating between threads based on [crossbeam-ch
 
 ```toml
 [dependencies]
-doublecross = "0.1"
+doublecross = "0.2"
 ```
 
 # license

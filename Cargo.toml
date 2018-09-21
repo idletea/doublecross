@@ -1,6 +1,6 @@
 [package]
 name = "doublecross"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Terry Kerr <root@oefd.ca>"]
 description = "Bi-directional channels for rust based on crossbeam-channel"
 readme = "README.md"
