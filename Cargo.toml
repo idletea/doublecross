@@ -1,0 +1,13 @@
+[package]
+name = "doublecross"
+version = "0.1.0"
+authors = ["Terry Kerr <root@oefd.ca>"]
+description = "Bi-directional channels for rust based on crossbeam-channel"
+readme = "README.md"
+keywords = ["channel", "message"]
+license = "MPL-2.0"
+homepage = "https://github.com/oefd/doublecross"
+repository = "https://github.com/oefd/doublecross"
+
+[dependencies]
+crossbeam-channel = "0.2"
